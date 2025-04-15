@@ -2,10 +2,14 @@
 *.pot
 *.pyc
 .env
+.coverage
+.vscode
 __pycache__/
+**__pycache__/
 local_settings.py
 db.sqlite3
 db.sqlite3-journal
 /media
 venv
 /static
+.pytest_cache
