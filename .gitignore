@@ -13,3 +13,4 @@ db.sqlite3-journal
 venv
 /static
 .pytest_cache
+schema.yml

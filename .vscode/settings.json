@@ -1,7 +1,15 @@
 {
-  "cSpell.words": [
-    "dotenv",
-    "ecommerce",
-    "pytest"
-  ]
+  "cSpell.words": ["dotenv", "ecommerce", "MPTT", "pytest", "viewsets"],
+  "editor.formatOnSave": true,
+  "python.formatting.provider": "black",
+  "pyton.formatting.blackArgs": ["--line-length", "88"],
+  "python.linting.enabled": true,
+  "python.linting.lintOnSave": true,
+  "python.linting.flake8Enabled": true,
+  "pyton.linting.flake8Args": ["--max-line-length", "88"],
+  "[python]": {
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "explicit"
+    }
+  }
 }
