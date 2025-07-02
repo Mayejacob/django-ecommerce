@@ -1,5 +1,12 @@
 {
-  "cSpell.words": ["dotenv", "ecommerce", "MPTT", "pytest", "viewsets"],
+  "cSpell.words": [
+    "dotenv",
+    "ecommerce",
+    "MPTT",
+    "pytest",
+    "Viewset",
+    "viewsets"
+  ],
   "editor.formatOnSave": true,
   "python.formatting.provider": "black",
   "pyton.formatting.blackArgs": ["--line-length", "88"],
