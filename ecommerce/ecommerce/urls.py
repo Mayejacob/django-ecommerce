@@ -20,7 +20,7 @@ urlpatterns = [
         name="swagger-ui",
     ),
     path(
-        "/",
+        "",
         SpectacularSwaggerView.as_view(url_name="schema"),
         name="swagger-home",
     ),
